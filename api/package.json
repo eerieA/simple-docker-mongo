@@ -4,7 +4,7 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "start:dev": "nodemon src/index.js"
+    "start:dev": "nodemon --env-file=../.env.development src/index.js"
   },
   "keywords": [],
   "author": "Jade D",
