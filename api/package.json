@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "nodemon --env-file=.env.development -L src/index.js",
     "docker:build": "docker build -t my-app/express-api:latest-dev .",
-    "docker:run": "docker run --name api -v F:\\projects\\docker_tut\\api:/user/src/app my-app/express-api:latest-dev",
+    "docker:run": "docker run -p 3000:3000 --name api -v F:\\projects\\docker_tut\\api:/user/src/app my-app/express-api:latest-dev",
     "docker:stop": "docker stop api"
   },
   "keywords": [],
