@@ -1,5 +1,11 @@
 # Learn Docker
 
+## Just FYI
+
+### Empty ./data folder
+
+It is for MongoDb data storage, as a mounted folder into the container, so not tracking its content with Git.
+
 ## Notes
 
 ### Nodemon with WSL
